@@ -1,0 +1,20 @@
+@import "variables";
+
+@color-dark: #333;
+
+@color-primary: #0c0c0c;
+
+@color-secondary: #680000;
+
+@color-tertiary: #43cb83;
+
+@color-quaternary: #f4f4f4;
+
+@import "skin";
+
+// Header
+@media (min-width: 992px) {
+	html #header .header-nav:not(.header-nav-line):not(.header-nav-links) .header-nav-main nav > ul:not(:hover) > li.dropdown-full-color.dropdown-quaternary > a.active {
+	    color: @color-primary;
+	}
+}
